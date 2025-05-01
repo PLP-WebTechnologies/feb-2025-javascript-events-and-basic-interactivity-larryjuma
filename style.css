@@ -1,0 +1,48 @@
+
+/* Basic styles – customize as needed */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+section {
+  margin-bottom: 40px;
+}
+button {
+  margin: 5px;
+  padding: 10px 15px;
+}
+.tabs .tab-content {
+  display: none;
+}
+.tabs .tab-content.active {
+  display: block;
+}
+.gallery img {
+  width: 150px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.hover-box {
+  display: inline-block;
+  padding: 20px;
+  background: lightblue;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.eventHandling{
+  background-color: palegoldenrod;
+}
+
+.interactiveElement{
+  background-color: darkgray;
+}
+
+.formValidation{
+  background-color: coral;
+}
+
+.formValidation input{
+  display: block;
+  margin: 5px;
+}
